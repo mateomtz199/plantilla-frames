@@ -67,6 +67,12 @@
                 case '9':
                     include ("curso/9.php");
                 break;
+                case '10':
+                    include ("curso/10.php");
+                break;
+                case '11':
+                    include ("curso/11.php");
+                break;
                 default:
                 include ('curso/inicio.php');
 
@@ -76,7 +82,14 @@
         
     </section>
    
-    <footer class="item">Pie</footer>		
+    <footer class="item">
+        <div class="estilos-pie">
+        <p>Curso realizado por Melina © 2020</p>
+            <a href="https://www.facebook.com/melis.melis.31337"><img src="img/logo-face.png" alt="" height="40px"></a>
+        </div>
+        
+            
+    </footer>		
 </div>
     
 </body>

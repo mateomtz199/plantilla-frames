@@ -4,7 +4,8 @@
 	min-width:320px;
     margin:20px auto;		
 	display: flex;  	
-	flex-flow: row wrap; 	
+	flex-flow: row wrap; 
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;	
 }
 
 .item{
@@ -170,4 +171,8 @@ footer{
     font-size: 24px;
     padding: 10px 10px;
     border: cornsilk solid 1px;
+  }
+
+  .estilos-pie{
+	  padding: 1rem;
   }
